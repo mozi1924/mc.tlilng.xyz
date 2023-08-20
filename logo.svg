@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 499 499">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #8ab4f8;
+      }
+
+      .cls-3 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #616161;
+      }
+
+      .cls-3, .cls-2 {
+        font-family: Arial-BoldMT, Arial;
+        font-size: 133.78px;
+        font-weight: 700;
+        isolation: isolate;
+      }
+
+      .cls-5 {
+        fill: #9cdcfe;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-5" cx="223.69" cy="345.15" rx="152.21" ry="153.85"/>
+  <ellipse class="cls-1" cx="346.79" cy="226.62" rx="152.21" ry="153.85"/>
+  <text class="cls-3" transform="translate(354.83 327.31) scale(.99 1)"><tspan x="0" y="0">L</tspan></text>
+  <ellipse class="cls-4" cx="180.01" cy="181.94" rx="180.01" ry="181.94"/>
+  <text class="cls-2" transform="translate(233.02 253.65) scale(.99 1)"><tspan x="0" y="0">T</tspan></text>
+</svg>

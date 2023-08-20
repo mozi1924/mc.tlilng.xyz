@@ -1,0 +1,90 @@
+/* styles.css */
+/* 主体部分 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("background.png"); /* 设置背景图片的URL */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .content {
+    padding: 20px;
+    margin-top: 60px;
+  }
+  
+  .text-box {
+    background-color: rgba(0, 0, 0, 0.5); /* 半透明背景颜色 */
+    backdrop-filter: blur(10px); /* 背景模糊效果 */
+    -webkit-backdrop-filter: blur(10px);/*webkit模糊实现*/
+    border-radius: 10px; /* 圆角 */
+    padding: 20px; /* 内边距 */
+    color: white; /* 文本颜色 */
+  }
+
+  .patch-box {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5); /* 半透明背景颜色 */
+    backdrop-filter: blur(10px); /* 背景模糊效果 */
+    -webkit-backdrop-filter: blur(10px);/*webkit模糊实现*/
+    border-radius: 10px; /* 圆角 */
+    padding: 10px; /* 内边距 */
+    padding: 1px 10px; /* 调整上下边距 */
+    margin-bottom: 20px; /* 底部边距 */
+    color: white; /* 文本颜色 */
+  }
+
+  .patch-box a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .QQ-Group {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* 半透明背景颜色 */
+    backdrop-filter: blur(10px); /* 背景模糊效果 */
+    -webkit-backdrop-filter: blur(10px);/*webkit模糊实现*/
+    border-radius: 10px; /* 圆角 */
+    padding: 10px; /* 内边距 */
+
+    }
+
+    .gallery {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+    
+    .row {
+      display: flex;
+      justify-content: center;
+      margin: 10px 0;
+    }
+    
+    .small-image,
+    .large-image {
+      overflow: hidden;
+      margin: 5px;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+    
+    .small-image img,
+    .large-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .small-image:hover,
+    .large-image:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+/* designed by mozi1924 https://github.com/mozi1924/ */
