@@ -1,0 +1,55 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tlilng Minecraft Server</title>
+<link rel="stylesheet" href="/styles.css">
+<script>
+  function navigateToPage(url) {
+    window.location.href = url; // 跳转到指定链接
+  }
+
+  // ...其他 JavaScript 代码...
+</script>
+<style>
+    video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* 圆角 */
+  }
+</style>
+</head>
+<body>
+  <iframe src="/navbar.html" frameborder="0" style="position: fixed; top: 0; left: 0; width: 100%; height: 80px; z-index: 9999;"></iframe>
+  <div class="content">
+    <div class="patch-box">
+      <p>
+        <a href="/">主页🏠</a>
+        -
+        <a href="/guide/">指南</a>
+        -
+        快速开始
+        -
+        如何选择或安装客户端
+    </p>
+    </div>
+    <div class="text-box">
+        <h1 style="text-align: center;">如何选择或安装客户端</h1>
+        <h3>1.选择合适您的客户端</h3>
+        <p>我们优先推荐使用Minecraft Java Editction ，因为这样您可以使用服务器内的高级功能与模组，比如语音通话，小地图，物品信息等等</p>
+        <p>但如果您的设备无法流畅运行Minecraft Java Editction，我们则不推荐您使用它进行游戏，我们更推荐您使用占用更小的Minecraft Bedrock，它可以在您的电脑，手机，平板，游戏机等设备上运行，实现了随时随地</p>
+        <p>但由于服务器本身是Minecraft Java Editction，而实现Minecraft Bedrock兼容是使用geyser转译而成的，所以会存在一些无法解决的bug，并且不支持部分方块与特殊功能</p>
+        <h3>2.安装</h3>
+        <p>如您使用java端需要拥有一个正版账户，本服务器不支持离线</p>
+        <p>首先是电脑端，我们建议您使用完全开源的<a href="https://github.com/huanghongxun/HMCL/releases">HMCL</a>作为启动器，使用当前服务器版本和fabric作为模组加载器</p>
+        <p>其次是安卓手机，使用java版本，我们建议使用<a href="https://github.com/FCL-Team/FoldCraftLauncher/releases">Fold Craft Launcher</a>作为启动器，该启动器支持ipv6，并且基于HMCL-PE开发，并且至今仍在维护</p>
+        <p>接下来是基岩版，安卓端我们建议您前往mcapks.net下载最新正式版，不过有条件我们任然建议您支持正版，在google play购买</p>
+        <p>而IOS需要越狱，并且比较复杂，如果您的设备已经越狱并且配置好AppSync可以<a href="/connect/">联系mozi</a>获取安装包，如果您有条件支持正版，请在app store购买</p>
+      </div>
+  </div>
+</body>
+</html>
+<!-- designed by mozi1924 https://github.com/mozi1924/ -->
